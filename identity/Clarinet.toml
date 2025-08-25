@@ -1,0 +1,23 @@
+[project]
+name = 'identity'
+description = ''
+authors = []
+telemetry = true
+cache_dir = '.\.cache'
+requirements = []
+[contracts.identityguard-core]
+path = 'contracts/identityguard-core.clar'
+clarity_version = 3
+epoch = 3.0
+
+[contracts.audit-trail]
+path = 'contracts/audit-trail.clar'
+clarity_version = 3
+epoch = 3.0
+
+[contracts.multisig-verifier]
+path = 'contracts/multisig-verifier.clar'
+clarity_version = 3
+epoch = 3.0
+[repl.analysis]
+passes = []
