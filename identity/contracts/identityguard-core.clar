@@ -180,7 +180,6 @@
     )
   )
 )
-
 (define-read-only (verify-identity-claim
   (identity-id uint)
   (claim-type (string-ascii 50))
@@ -190,7 +189,6 @@
     ERR_INVALID_CLAIM
   )
 )
-
 (define-read-only (get-platform-stats)
   (ok {
     total-identities: (- (var-get next-identity-id) u1),
